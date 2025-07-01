@@ -1,0 +1,34 @@
+Test Scope:
+
+1.Verify  the To-Do displays Chronologically with the expected  summary, status and creation time.
+2.Validate the functionality of the toggls status(done/not done)
+3.Verify new To-Do lists can be created with the expected To-do status and is available in the list.
+
+Tools: Automation testing -Robot Framework
+
+All planned Test are executed.
+Defects Fixed and Verified
+
+Test Cases:
+
+TC-001
+
+Title          : Verify the list in chronological order and the display
+pre-conditions : Minimum 3 To-Dos with different creation time
+Steps          : * Navigate to To-Do list
+                 * Verify the order of the list
+Expected Result: To-Dos are ddisplayed in the chronological order  with the expected  summary, status and creation time.	
+
+TC-002	
+Title          : Toggle To-DO list
+pre-conditions : Minimum 1 To-Do status
+Steps          : * Navigate to To-Do list
+                 * Click StatusToggle(Done/Not Done) for a To-Do, Observe the update
+Expected Result: List View refreshed automatically with the change
+
+TC-003		
+Title          : Verify creating a ne To-Do 
+pre-conditions : User can access the To-Do list view
+Steps          : Click the New+ button, Enter Summary-Submit
+                 
+Expected Result: New To-Do list created with status "Not Done". User is returned to the list view where new To-Do appears in the correct position.

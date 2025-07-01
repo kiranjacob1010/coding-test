@@ -1,0 +1,6 @@
+robotframework
+robotframework-seleniumlibrary
+chromedriver-autoinstaller
+robotframework-requests
+robotframework-jsonlibrary
+

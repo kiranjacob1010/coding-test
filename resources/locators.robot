@@ -1,0 +1,2 @@
+*** Variables ***
+${NEWBUTTON}   xpath=//a[@class='btn variant-filled-primary border-2 border-blue-500 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-colors duration-300']
